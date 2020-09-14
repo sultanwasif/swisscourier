@@ -1,9 +1,16 @@
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
-
+// API: 'http://localhost:54103/api/',
 export const environment = {
-  production: false
+  production: false,
+  API: 'http://sultanco-001-site16.ctempurl.com/api/',
+  ImgPath: "http://sultanco-001-site16.ctempurl.com/api/",
+  WSAPI: 'http://sultanco-001-site16.ctempurl.com/api/',
+  WSSAPI: 'http://sultanco-001-site16.ctempurl.com/api/',
+  APP_UPDATE_URL: 'http://sultanco-001-site16.ctempurl.com/api/',
+  APPVER: 'Ver: 1.0.1',
+  NAME: 'Developed by HF Services'
 };
 
 /*
